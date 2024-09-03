@@ -191,7 +191,7 @@ services:
       - /var/lib/docker:/var/lib/docker:ro
       - /cgroup:/cgroup:ro #doesn't work on MacOS only for Linux
     expose:
-      - "3000"
+      - "8080"
     labels:
       org.label-schema.group: "monitoring"
 
